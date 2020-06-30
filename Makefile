@@ -4,7 +4,7 @@ CXXFLAGS =  -g3 -O0 -Wall -Werror -std=c++11
 
 EXECUTABLE = application
 
-LDLIBS = `pkg-config --static --libs glfw3` -lGL -lGLU
+LDLIBS = `pkg-config --static --libs glfw3` -lGL -lGLEW
 
 OBJ = main.o 
 
